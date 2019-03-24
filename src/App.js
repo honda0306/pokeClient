@@ -30,7 +30,7 @@ class App extends Component {
         console.log('data', data)
         this.setState({
           pokemon: data.results,
-          prevData: data.prev,
+          prevData: data.previous,
           nextData: data.next,
         });
       })
