@@ -11,6 +11,7 @@ const ListView = (props) => {
                         <Link to={`/${pokemon.name}`} className='pokemonLink'>
                             <div className='card'>
                                 <h4 className='title'>{pokemon.name}</h4>
+                                <h4 className='url'>{pokemon.url}</h4>
                             </div>
                         </Link>
                     </div>
